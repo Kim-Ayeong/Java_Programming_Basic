@@ -1,0 +1,4 @@
+name	rating	compaints	privileges
+HR	43	51	30
+RND	63	64	51
+CRM	71	70	68
