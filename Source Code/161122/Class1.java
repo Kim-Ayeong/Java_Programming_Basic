@@ -1,4 +1,4 @@
-public class Class1 {
+ï»¿public class Class1 {
 
 	public static double dot(double[] xs, double[] ys) {
 		int n = xs.length;
@@ -10,4 +10,4 @@ public class Class1 {
 		return total;
 	}
 }
-// º¤ÅÍ ³»Àû ±¸ÇÏ±â = x1*y1 +x2*y2 + x3*y3
+// ë²¡í„° ë‚´ì  êµ¬í•˜ê¸° = x1*y1 +x2*y2 + x3*y3

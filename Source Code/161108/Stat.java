@@ -1,4 +1,4 @@
-import java.lang.Math;
+ï»¿import java.lang.Math;
 
 public class Stat {
 	
@@ -7,7 +7,7 @@ public class Stat {
 		double[] ans = new double[n];
 		for(int i=0; i<n; ++i) {
 			ans[i] = Math.random();
-			//System.out.println(Math.random()); ·Î ÇÏ¸é ÀúÀåµÇÁö ¾ÊÀ½
+			//System.out.println(Math.random()); ë¡œ í•˜ë©´ ì €ìž¥ë˜ì§€ ì•ŠìŒ
 		}
 		return ans;
 	}

@@ -1,4 +1,4 @@
-import java.lang.Math;
+﻿import java.lang.Math;
 
 public class my {
 	public static double f(double x){

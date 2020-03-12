@@ -1,4 +1,4 @@
-
+ï»¿
 public class Use1 {
 
 	public static void main(String[] args) {
@@ -10,4 +10,4 @@ public class Use1 {
 			sum += xs[i];
 		}
 	}
-} // ´©ÀûÀ» ±¸ÇÒ ¶§
+} // ëˆ„ì ì„ êµ¬í•  ë•Œ

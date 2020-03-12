@@ -1,4 +1,4 @@
-
+﻿
 public class Stat3 {
 
 	public static double max(double[] xs) {
@@ -38,7 +38,7 @@ public class Stat3 {
 	}
 	
 	//plus([1,2,3], [4,5,6,7,8,9]) > [5,7,9,8,10,12]
-	//ũ�Ⱑ ū �迭 ����, ũ�Ⱑ ���� �迭�� �ݺ�
+	//크기가 큰 배열 기중, 크기가 작은 배열은 반복
 	
 	public static void main(String[] args) {
 		

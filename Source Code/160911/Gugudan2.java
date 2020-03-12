@@ -1,5 +1,5 @@
-
-public class ±¸±¸´Ü2 {
+ï»¿
+public class êµ¬êµ¬ë‹¨2 {
 
 	public static void main(String[] args) {
 	
@@ -12,7 +12,7 @@ public class ±¸±¸´Ü2 {
 			d = 1;
 				while(d<10) {
 					System.out.println(String.format("%d*%d = %d",i,d,i*d));
-					//= C¿¡¼­ printf("%d * %d = %d")
+					//= Cì—ì„œ printf("%d * %d = %d")
 					d++;
 				}
 			i++;

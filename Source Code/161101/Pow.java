@@ -1,4 +1,4 @@
-
+ï»¿
 public class Pow {
 
 	public static int pow(int a, int b) {
@@ -14,4 +14,4 @@ public class Pow {
 		System.out.println(pow(2,32));
 	}
 }
-//¿¬½À¹®Á¦ 1¹ø
+//ì—°ìŠµë¬¸ì œ 1ë²ˆ

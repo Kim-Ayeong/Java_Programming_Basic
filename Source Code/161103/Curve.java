@@ -1,4 +1,4 @@
-
+ï»¿
 public class Curve {
 	/* f(x)
 	  [0,10) curve
@@ -22,14 +22,14 @@ public class Curve {
 		for(int i=0; i<n; ++i) {
 			double x = beg + i * gridsize;
 			dens[i] = f(x);
-		} ¿Í °°À½
+		} ì™€ ê°™ìŒ
 		 */
 		
 		for(int i=0; i<n; ++i) {
 			dens[i] = f(i/10.0);
 		}
 		/*
-		 int m = dens.length Å©±â¸¦ ¸ÕÀú ¾Ë°í³­ ÈÄ ¹è¿­ Â¥±â
+		 int m = dens.length í¬ê¸°ë¥¼ ë¨¼ì € ì•Œê³ ë‚œ í›„ ë°°ì—´ ì§œê¸°
 		 [0], [1], ..., [m-1]
 		 dens[] ~
 		 */

@@ -1,10 +1,10 @@
-
+ï»¿
 public class Test4 {
 
 	public static void main(String[] args) {
 		int i;
-		for(i= 0;i<10;i++){ //ÃÊ±â, Á¶°Ç, º¯È­ ¼ø
-			System.out.println("Ãâ·Â!");
+		for(i= 0;i<10;i++){ //ì´ˆê¸°, ì¡°ê±´, ë³€í™” ìˆœ
+			System.out.println("ì¶œë ¥!");
 			System.out.println(i);
 		}
 

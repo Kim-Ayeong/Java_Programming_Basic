@@ -1,4 +1,4 @@
-
+ï»¿
 public class Example_3_10 {
 
 	public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Example_3_10 {
 		int total = deposit;
 		
 		while(total<100000000) {
-			//1¾ï = 1e8
+			//1ì–µ = 1e8
 			n++;
 			deposit *= 2;
 			total += deposit;
@@ -17,4 +17,4 @@ public class Example_3_10 {
 		System.out.println(n);
 	}
 }
-//¿¬½À¹®Á¦ 2¹ø
+//ì—°ìŠµë¬¸ì œ 2ë²ˆ

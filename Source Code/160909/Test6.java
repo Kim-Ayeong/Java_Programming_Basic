@@ -1,8 +1,8 @@
-
+ï»¿
 public class Test6 {
 
 	public static void main(String[] args) {
-		char arr[] = {'°¡', '³ª', '´Ù', '¶ó', '¸¶'}; // arr[], []arr ¸ğµÎ °¡´É
+		char arr[] = {'ê°€', 'ë‚˜', 'ë‹¤', 'ë¼', 'ë§ˆ'}; // arr[], []arr ëª¨ë‘ ê°€ëŠ¥
 		
 		int i;
 		for(i= 0;i<5;i++){

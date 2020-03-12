@@ -1,4 +1,4 @@
-
+ï»¿
 public class Class3 {
 
 	public static double[] plus(double[] xs, double[] ys) {
@@ -12,4 +12,4 @@ public class Class3 {
 		return ans;
 	}
 }
-// ±æÀÌ°¡ ´Ù¸¥ ¹è¿­ ´õÇÏ±â
+// ê¸¸ì´ê°€ ë‹¤ë¥¸ ë°°ì—´ ë”í•˜ê¸°

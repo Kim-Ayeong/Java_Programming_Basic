@@ -1,4 +1,4 @@
-
+ï»¿
 public class Sum {
 
 	public static void main(String[] args) {
@@ -12,4 +12,4 @@ public class Sum {
 	} //java Sum 1 3 5 6 4
 }
 
-//cmd Ã¢¿¡¼­ javac Sum.java > java Sum 1 3 5
+//cmd ì°½ì—ì„œ javac Sum.java > java Sum 1 3 5

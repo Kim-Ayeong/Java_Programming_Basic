@@ -1,10 +1,10 @@
-package final_homework;
+ï»¿package final_homework;
 
 public class Check {
 
 	public static void main(String[] args) {
-		Department d1 = new Department("AA", 10, 20, 30); // »ı¼ºÀÚ 1À¸·Î ÀÎ½ºÅÏ½º d1 »ı¼º
-		Department d2 = new Department("aa 40 50 60"); // »ı¼ºÀÚ 2·Î ÀÎ½ºÅÏ½º d2 »ı¼º
+		Department d1 = new Department("AA", 10, 20, 30); // ìƒì„±ì 1ìœ¼ë¡œ ì¸ìŠ¤í„´ìŠ¤ d1 ìƒì„±
+		Department d2 = new Department("aa 40 50 60"); // ìƒì„±ì 2ë¡œ ì¸ìŠ¤í„´ìŠ¤ d2 ìƒì„±
 		
 		System.out.println(d1.toString()); 
 		System.out.println(d1.getAverage());

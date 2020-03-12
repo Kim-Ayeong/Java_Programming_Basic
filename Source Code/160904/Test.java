@@ -1,11 +1,11 @@
-
+ï»¿
 public class Test {
 
 	public static void main(String[] args) {
 		int i = 10;
 		double d = 0.6;
 		boolean b = true;
-		char c = '¾ô';
+		char c = 'ì–½';
 		String s = "overwatch";
 		
 		System.out.println(i);

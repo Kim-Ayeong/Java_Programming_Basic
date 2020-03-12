@@ -1,4 +1,4 @@
-
+ï»¿
 public class Test9 {
 
 	public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class Test9 {
 		int plus = plus(a,b);
 		System.out.println("2");
 		System.out.println("-=-");
-		System.out.println(plus); //return°ª Ãâ·Â, ex) return 0; ÀÌ¸é 0 Ãâ·Â
+		System.out.println(plus); //returnê°’ ì¶œë ¥, ex) return 0; ì´ë©´ 0 ì¶œë ¥
 	}
 	public static int plus(int a, int b){
 		System.out.println("a");

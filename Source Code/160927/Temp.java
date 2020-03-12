@@ -1,4 +1,4 @@
-
+﻿
 public class Temp {
 
 	public static double f2c(double f) {

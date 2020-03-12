@@ -1,5 +1,5 @@
-
-public class ÁÖ»çÀ§ {
+ï»¿
+public class ì£¼ì‚¬ìœ„ {
 	private int number;
 	
 	public void roll() {

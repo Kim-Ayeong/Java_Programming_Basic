@@ -1,4 +1,4 @@
-package final_homework;
+ï»¿package final_homework;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -9,10 +9,10 @@ public class Survey {
 
 	private static final int max = 100;
 	private static String[] col;
-	private static Department[] data; // ¸â¹öº¯¼ö ¼±¾ğ
+	private static Department[] data; // ë©¤ë²„ë³€ìˆ˜ ì„ ì–¸
 	
 	public static void readData(String filename) throws Exception{
-		BufferedReader br = new BufferedReader(new FileReader(filename)); // ÆÄÀÏ ÀĞ±â
+		BufferedReader br = new BufferedReader(new FileReader(filename)); // íŒŒì¼ ì½ê¸°
 		
 		col = br.readLine().trim().split("\\s+");
 		
@@ -24,10 +24,10 @@ public class Survey {
 		while((line = br.readLine())!= null) {
 			d[count++] = new Department(line);
 		}
-		//lineÀ»  Department ¹è¿­ÀÎ d¿¡ ÇÑÁÙ¾¿ Áı¾î³Ö±â
+		//lineì„  Department ë°°ì—´ì¸ dì— í•œì¤„ì”© ì§‘ì–´ë„£ê¸°
 		
 		data = Arrays.copyOf(d, count);
-		//d¸¦ data¿¡ ¸ğµÎ Áı¾î³Ö±â
+		//dë¥¼ dataì— ëª¨ë‘ ì§‘ì–´ë„£ê¸°
 	}
 	
 	public static void main(String[] args) throws Exception {
@@ -35,13 +35,13 @@ public class Survey {
 		Scanner s = new Scanner(System.in);
 		String filename = s.nextLine();
 		
-		readData(filename); // ÆÄÀÏ ÀĞ±â
+		readData(filename); // íŒŒì¼ ì½ê¸°
 		
 		System.out.printf("%10s %10s\n", "NAME","AVERAGE");
 		
 		for(int i=0; i<data.length; i++) {
 			System.out.printf("%10s %10d\n", data[i].getName(), data[i].getAverage());
-		} // ÀÌ¸§, Æò±Õ Ãâ·Â
+		} // ì´ë¦„, í‰ê·  ì¶œë ¥
 	
 	}
 

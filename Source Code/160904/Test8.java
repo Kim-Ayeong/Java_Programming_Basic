@@ -1,20 +1,20 @@
-import java.util.Scanner;
+ï»¿import java.util.Scanner;
 
 public class Test8 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String input = scan.nextLine();
-		String a = input.split(" ")[0]; //»çÀÌ¿¡ °ø¹é ³Ö±â
-		String b = input.split(" ")[1]; //»çÀÌ¿¡ °ø¹é ³Ö±â
+		String a = input.split(" ")[0]; //ì‚¬ì´ì— ê³µë°± ë„£ê¸°
+		String b = input.split(" ")[1]; //ì‚¬ì´ì— ê³µë°± ë„£ê¸°
 		
 		System.out.println(a);
 		System.out.println(b);
 		
-		scan.close(); //ÀÔ·ÂÃ¢ ´Ý±â
+		scan.close(); //ìž…ë ¥ì°½ ë‹«ê¸°
 		
-		int c = Integer.parseInt(a); //¹®ÀÚ¿­À» ¼ýÀÚ·Î
-		int d = Integer.parseInt(b); //¹®ÀÚ¿­À» ¼ýÀÚ·Î
+		int c = Integer.parseInt(a); //ë¬¸ìžì—´ì„ ìˆ«ìžë¡œ
+		int d = Integer.parseInt(b); //ë¬¸ìžì—´ì„ ìˆ«ìžë¡œ
 
 		if(c%d > 3){
 			System.out.println(c);

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+ï»¿import java.util.Scanner;
 
 public class Test7 {
 
@@ -22,7 +22,7 @@ public class Test7 {
 			System.out.println("C.");
 		}
 		
-		System.out.println("Ãâ·ÂÀÔ´Ï´Ù.");
+		System.out.println("ì¶œë ¥ì…ë‹ˆë‹¤.");
 		System.out.println(input);
 		
 	}

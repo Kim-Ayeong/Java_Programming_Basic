@@ -1,4 +1,4 @@
-import java.lang.Math;
+ï»¿import java.lang.Math;
 import java.util.Arrays;
 
 public class Stat4 {
@@ -27,7 +27,7 @@ public class Stat4 {
 		ans[0] = min(xs);
 		ans[1] = max(xs);
 		return ans;
-	} Stat3 °ú ¿¬°á
+	} Stat3 ê³¼ ì—°ê²°
 	*/
 
 	public static double[] random(int n) {
@@ -45,7 +45,7 @@ public class Stat4 {
 		
 		System.out.println(Arrays.toString(plus(xs, ys)));
 		System.out.println(Arrays.toString(multiply(xs, ys)));
-		// System.out.println(Arrays.toString(range(xs))); >> [1.0, 3.0] Ãâ·Â
+		// System.out.println(Arrays.toString(range(xs))); >> [1.0, 3.0] ì¶œë ¥
 		System.out.println(Arrays.toString(random(6)));
 	}
 }

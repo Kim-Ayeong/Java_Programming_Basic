@@ -1,4 +1,4 @@
-
+ï»¿
 public class Patient {
 
 	String name;
@@ -16,7 +16,7 @@ public class Patient {
 	public String toString() {
 		return this.name + "(" + this.age +")";
 	}
-	// ±âº» ±¸Á¶
+	// ê¸°ë³¸ êµ¬ì¡°
 	
 	public double bmi() {
 		double h = this.height / 100;

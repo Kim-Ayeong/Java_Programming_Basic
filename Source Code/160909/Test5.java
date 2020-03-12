@@ -1,13 +1,13 @@
-
+ï»¿
 public class Test5 {
 
 	public static void main(String[] args) {
 		int i;
 		for(i= 0;i<10;i++){ 
-			System.out.println("Ãâ·Â!");
+			System.out.println("ì¶œë ¥!");
 			
 			if(i==5){
-				continue; //¹Ø¿¡ iÃâ·Â ¹«½Ã
+				continue; //ë°‘ì— iì¶œë ¥ ë¬´ì‹œ
 			}
 			System.out.println(i);
 		

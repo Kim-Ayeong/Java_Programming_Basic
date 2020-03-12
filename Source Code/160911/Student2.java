@@ -1,8 +1,8 @@
-
+ï»¿
 public class Student2 {
 
 	public static void main(String[] args) {
-		String name = "ÇÏÇö¿ì";
+		String name = "í•˜í˜„ìš°";
 		String ID = "121212";
 		Student s = makeStudent(name, ID);
 		System.out.println(s.name);
@@ -19,7 +19,7 @@ public class Student2 {
 	}
 	public static Student makeStudent(String name, String ID) {
 		Student result = new Student(name, ID);
-		name = "±èÀ±¾Æ";
+		name = "ê¹€ìœ¤ì•„";
 		return result;
 	}
 }

@@ -1,4 +1,4 @@
-
+ï»¿
 public class Use2 {
 
 	public static void main(String[] args) {
@@ -12,4 +12,4 @@ public class Use2 {
 			}
 		}
 	}
-} // ÃÖ´ë¸¦ ±¸ÇÒ ¶§
+} // ìµœëŒ€ë¥¼ êµ¬í•  ë•Œ

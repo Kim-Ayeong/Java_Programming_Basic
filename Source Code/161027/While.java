@@ -1,4 +1,4 @@
-
+ï»¿
 public class While {
 
 	public static double d(int n) {
@@ -15,7 +15,7 @@ public class While {
 			d = d(n);
 			n++;
 			// n++;
-			// d = d(n); ·Î ¾µ ¶§¿Í Ãâ·Â°ªÀÌ ´Ù¸§
+			// d = d(n); ë¡œ ì“¸ ë•Œì™€ ì¶œë ¥ê°’ì´ ë‹¤ë¦„
 		}
 		
 		System.out.println(n);

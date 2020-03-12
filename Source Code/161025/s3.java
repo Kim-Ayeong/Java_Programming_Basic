@@ -1,4 +1,4 @@
-
+﻿
 public class s3 {
 
 	public static double dnorm(double x) {

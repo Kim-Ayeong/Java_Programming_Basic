@@ -1,4 +1,4 @@
-
+ï»¿
 public class Dist {
 
 	public static double f(double x){
@@ -9,7 +9,7 @@ public class Dist {
 			dens = 1 - x;
 		} else{
 			dens = 0.0;
-		} //´Ù ÇÕÃÆÀ» ¶§ ÀüÃ¼°¡ µÇ´ÂÁö À¯ÀÇ, Áßº¹ x
+		} //ë‹¤ í•©ì³¤ì„ ë•Œ ì „ì²´ê°€ ë˜ëŠ”ì§€ ìœ ì˜, ì¤‘ë³µ x
 		return dens;
 	}
 	//3-17
@@ -28,7 +28,7 @@ public class Dist {
 		}
 		return dens;
 	}
-	// ¿¬½À¹®Á¦ 2¹ø
+	// ì—°ìŠµë¬¸ì œ 2ë²ˆ
 	
 	public static void main(String[] args) {
 		System.out.println(f(0.2));

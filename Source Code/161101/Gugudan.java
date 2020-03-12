@@ -1,4 +1,4 @@
-
+ï»¿
 public class Gugudan {
 
 public static void dan(int n) {
@@ -19,6 +19,6 @@ public static void dan(int n) {
 	}
 }
 
-//¿¬½À¹®Á¦ 4¹ø ´Ù½Ã ÇØº¸±â
+//ì—°ìŠµë¬¸ì œ 4ë²ˆ ë‹¤ì‹œ í•´ë³´ê¸°
 	
 

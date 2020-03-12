@@ -1,16 +1,16 @@
-
+ï»¿
 public class Exercise {
 
 	public static long sumOfSquares(int n) { 
-		//camel case ´ë¼Ò¹®ÀÚ¸¦ ¼¯¾î¼­
+		//camel case ëŒ€ì†Œë¬¸ìë¥¼ ì„ì–´ì„œ
 		long sum = 0;
 		for(int i=0; i<=n; i++) {
 			sum += i*i;
 			
 			/* long square(int i) {
 			return i*i;
-			} °ú
-			sum += square(i) ·Î ³ª´² »ç¿ëÇÒ ¼ö ÀÖÀ½ */ 
+			} ê³¼
+			sum += square(i) ë¡œ ë‚˜ëˆ  ì‚¬ìš©í•  ìˆ˜ ìˆìŒ */ 
 			
 		}
 		return sum;
@@ -20,4 +20,4 @@ public class Exercise {
 		System.out.println(sumOfSquares(10));
 	}
 }
-//¿¬½À¹®Á¦ 3¹ø
+//ì—°ìŠµë¬¸ì œ 3ë²ˆ

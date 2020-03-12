@@ -1,13 +1,13 @@
-
+ï»¿
 public class Test3 {
 
 	public static void main(String[] args) {
 		int i;
 		i = 0;
 		do{
-			System.out.println("Ãâ·Â!");
+			System.out.println("ì¶œë ¥!");
 			i++;
-		}while(i<0); //ÇÑ¹ø ½ÇÇàÇÏ°í while ¹Ýº¹
+		}while(i<0); //í•œë²ˆ ì‹¤í–‰í•˜ê³  while ë°˜ë³µ
 	}
 }
 

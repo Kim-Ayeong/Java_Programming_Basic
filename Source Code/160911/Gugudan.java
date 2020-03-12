@@ -1,6 +1,6 @@
-import java.util.Scanner;
+ï»¿import java.util.Scanner;
 
-public class ±¸±¸´Ü {
+public class êµ¬êµ¬ë‹¨ {
 
 	public static void main(String[] args) {
 		int i;

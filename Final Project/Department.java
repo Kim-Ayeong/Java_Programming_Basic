@@ -1,18 +1,18 @@
-package final_homework;
+ï»¿package final_homework;
 
 public class Department {
 
 	String name;
 	int rating;
 	int complaints;
-	int privileges; // ¸â¹öº¯¼ö ¼±¾ğ
+	int privileges; // ë©¤ë²„ë³€ìˆ˜ ì„ ì–¸
 	
 	public Department(String name, int rating, int complaints, int privileges) {
 		this.name = name;
 		this.rating = rating;
 		this.complaints = complaints;
 		this.privileges = privileges;
-	} // »ı¼ºÀÚ 1
+	} // ìƒì„±ì 1
 	
 	public Department(String line) {
 		String toks[] = line.trim().split("\\s+");
@@ -20,11 +20,11 @@ public class Department {
 		this.rating = Integer.valueOf(toks[1]);
 		this.complaints = Integer.valueOf(toks[2]);
 		this.privileges = Integer.valueOf(toks[3]);
-	} // »ı¼ºÀÚ 2
+	} // ìƒì„±ì 2
 	
 	public String toString() {
 		return name + "(" + ((rating + complaints + privileges)/3) + ")";
-	} // ÀÚµ¿Ãâ·Â
+	} // ìë™ì¶œë ¥
 	
 	public String getName() {
 		return this.name;
@@ -40,10 +40,10 @@ public class Department {
 	
 	public int getPrivileges() {
 		return this.privileges;
-	} // ÇÊ¿äÇÑ ¼Ó¼º °¡Á®¿À±â
+	} // í•„ìš”í•œ ì†ì„± ê°€ì ¸ì˜¤ê¸°
 	
 	public int getAverage() {
 		return (this.rating + this.complaints + this.privileges)/3;
-	} // ¸¸Á·µµ Æò±Õ °¡Á®¿À±â
+	} // ë§Œì¡±ë„ í‰ê·  ê°€ì ¸ì˜¤ê¸°
 	
 }

@@ -1,4 +1,4 @@
-
+﻿
 public class Series2 {
 
 	public static int a(int n) {

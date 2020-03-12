@@ -1,4 +1,4 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
 public class Stat {
 
@@ -12,5 +12,5 @@ public class Stat {
 		System.out.println(total);
 	}
 }
-//cmd â > cd C:\workspace\command\src >
+//cmd 창 > cd C:\workspace\command\src >
 //javac Stat.java > java Stat 1 3 5 > 9

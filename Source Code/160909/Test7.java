@@ -1,18 +1,18 @@
-
+ï»¿
 public class Test7 {
 
 	public static void main(String[] args) {
-		char[] arr = {'°¡', '³ª', '´Ù', '¶ó', '¸¶'};
-		String s = "°¡³ª´Ù¶ó¸¶";
+		char[] arr = {'ê°€', 'ë‚˜', 'ë‹¤', 'ë¼', 'ë§ˆ'};
+		String s = "ê°€ë‚˜ë‹¤ë¼ë§ˆ";
 		System.out.println(arr);
 		System.out.println(s);
 		
 		int i = 0;
 		int size = arr.length;
-		for(i = 0; i<size; i++){ //size´Â ¹è¿­ÀÇ Ãş¼ö = 5
+		for(i = 0; i<size; i++){ //sizeëŠ” ë°°ì—´ì˜ ì¸µìˆ˜ = 5
 			
-			if(arr[i] == '³ª'){
-				arr[i] = 'A'; // '³ª' ´ë½Å 'A' Ãâ·Â
+			if(arr[i] == 'ë‚˜'){
+				arr[i] = 'A'; // 'ë‚˜' ëŒ€ì‹  'A' ì¶œë ¥
 			}
 			System.out.println(arr[i]);
 		}

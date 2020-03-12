@@ -1,4 +1,4 @@
-
+ï»¿
 
 public class Stat2 {
 	
@@ -13,6 +13,6 @@ public class Stat2 {
 		double v = sumsq/(n-1) - sum*sum /(n*(n-1));
 		return v;
 	}
-	//¾ÕÀÇ ºĞ»ê ÇÔ¼ö¿Í °°À½
+	//ì•ì˜ ë¶„ì‚° í•¨ìˆ˜ì™€ ê°™ìŒ
 
 }

@@ -1,4 +1,4 @@
-
+﻿
 public class Stat2 {
 
 	public static double sum(double[] xs) {

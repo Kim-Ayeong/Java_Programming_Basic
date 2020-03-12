@@ -1,4 +1,4 @@
-
+ï»¿
 public class Class2 {
 
 	public static double sum(double[] xs) {
@@ -13,4 +13,4 @@ public class Class2 {
 		return total;
 	}
 }
-//´ÙÂ÷¿ø ¹è¿­ ÃÑÇÕ ±¸ÇÏ±â
+//ë‹¤ì°¨ì› ë°°ì—´ ì´í•© êµ¬í•˜ê¸°

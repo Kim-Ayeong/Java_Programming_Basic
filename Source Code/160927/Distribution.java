@@ -1,11 +1,11 @@
-import java.lang.Math;
+ï»¿import java.lang.Math;
 
 public class Distribution {
 	
 	public static double pexp(double x, double lambda) {
 		double ans;
 		ans = 1 - Math.exp(-lambda * x);
-		// ans = 1- Math.pow(Math.E, -lambda*x) ¿Í °°À½
+		// ans = 1- Math.pow(Math.E, -lambda*x) ì™€ ê°™ìŒ
 		return ans;
 	}
 

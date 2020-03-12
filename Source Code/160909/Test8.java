@@ -1,8 +1,8 @@
-
+ï»¿
 public class Test8 {
 
 	public static void main(String[] args) {
-		int arr[] = new int[2]; //¾Æ¹«°Íµµ ³ÖÁö ¾Ê°í »ı¼º, ex) char arr[] = new char[4]
+		int arr[] = new int[2]; //ì•„ë¬´ê²ƒë„ ë„£ì§€ ì•Šê³  ìƒì„±, ex) char arr[] = new char[4]
 		arr[0] = '1';
 		arr[1] = '2';
 				

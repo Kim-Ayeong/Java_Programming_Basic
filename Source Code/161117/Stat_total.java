@@ -1,14 +1,14 @@
-import java.lang.Math;
+ï»¿import java.lang.Math;
 import java.util.Arrays;
 
 public class Stat_total {
 	
-	//runif(n) > [n1, n2,..., nn] ¸¸µë
+	//runif(n) > [n1, n2,..., nn] ë§Œë“¬
 	public static double[] runif(int n) {
 		double[] ans = new double[n];
 		for(int i=0; i<n; ++i) {
 			ans[i] = Math.random();
-			//System.out.println(Math.random()); ·Î ÇÏ¸é ÀúÀåµÇÁö ¾ÊÀ½
+			//System.out.println(Math.random()); ë¡œ í•˜ë©´ ì €ìž¥ë˜ì§€ ì•ŠìŒ
 		}
 		return ans;
 	}
@@ -140,7 +140,7 @@ public class Stat_total {
 		
 		System.out.println(Arrays.toString(plus(xs, ys)));
 		System.out.println(Arrays.toString(multiply(xs, ys)));
-		  // System.out.println(Arrays.toString(range(xs))); >> [1.0, 3.0] Ãâ·Â
+		  // System.out.println(Arrays.toString(range(xs))); >> [1.0, 3.0] ì¶œë ¥
 		
 		System.out.println(Arrays.toString(random(6)));
 		

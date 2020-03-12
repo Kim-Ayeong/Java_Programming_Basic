@@ -1,13 +1,13 @@
-import java.util.Scanner;
+ï»¿import java.util.Scanner;
 
 public class Test6 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("aa");
-		String input = scan.nextLine(); //ÀÔ·ÂÃ¢
+		String input = scan.nextLine(); //ì…ë ¥ì°½
 		
-		System.out.println("Ãâ·ÂÀÔ´Ï´Ù.");
+		System.out.println("ì¶œë ¥ì…ë‹ˆë‹¤.");
 		System.out.println(input);
 		
 		scan.close();

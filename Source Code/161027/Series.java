@@ -1,4 +1,4 @@
-
+ï»¿
 public class Series {
 
 	public static int a(int n) {
@@ -10,13 +10,13 @@ public class Series {
 		for(int i=1; i<100; i++) {
 			
 			System.out.println("a(" + i + ")=" +a(i));
-			// a(1)=2 ~ a(99)=9900 Ãâ·Â
-			// ¿¹Á¦ 1
+			// a(1)=2 ~ a(99)=9900 ì¶œë ¥
+			// ì˜ˆì œ 1
 			
 			s += a(i);
 			System.out.println(s += a(i));
-			// ¼ö¿­ÀÇ ÇÕ Ãâ·Â
-			// ¿¹Á¦ 2
+			// ìˆ˜ì—´ì˜ í•© ì¶œë ¥
+			// ì˜ˆì œ 2
 		}
 	}
 

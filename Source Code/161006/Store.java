@@ -1,9 +1,9 @@
-
+ï»¿
 public class Store {
 
 	public static double wage(double time, double minimum_wage_rate,
 			double extra_wage_rate, double standard_time){
-		double wage = 0; //time = 0 ÀÏ ¶§ wage = 0 ÀÌ¹Ç·Î ÃÊ±â°ªÀ» ³Ö¾îÁÜ
+		double wage = 0; //time = 0 ì¼ ë•Œ wage = 0 ì´ë¯€ë¡œ ì´ˆê¸°ê°’ì„ ë„£ì–´ì¤Œ
 		double mwr = minimum_wage_rate;
 		double ext = extra_wage_rate;
 		

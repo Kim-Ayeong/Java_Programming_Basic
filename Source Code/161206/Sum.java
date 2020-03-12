@@ -1,4 +1,4 @@
-import java.io.File;
+ï»¿import java.io.File;
 import java.io.FileReader;
 import java.util.Arrays;
 import java.io.BufferedReader;
@@ -6,10 +6,10 @@ import java.io.BufferedReader;
 public class Sum {
 
 	public static void main(String[] args) throws Exception {
-		// ¿¹¿Ü´Â ´øÁø´Ù.
+		// ì˜ˆì™¸ëŠ” ë˜ì§„ë‹¤.
 		System.out.println(new FileReader(new File("data.txt")));
 		// = new FileReader("data.txt");
-		// °íÀ¯ ¸Þ¸ð¸® ÁÖ¼Ò Ãâ·Â
+		// ê³ ìœ  ë©”ëª¨ë¦¬ ì£¼ì†Œ ì¶œë ¥
 		
 		BufferedReader br = 
 				new BufferedReader(new FileReader(new File("data.txt")));
@@ -19,7 +19,7 @@ public class Sum {
 		String line;
 		
 		while((line = br.readLine()) != null) {
-			//br.readLine Àº ÇÑÁÙ¾¿ ÀÐÀ½, µ¹¾Æ¿Ã ¼ö ¾øÀ½, ÇØ´ç ÁÙÀÌ ¾øÀ¸¸é null
+			//br.readLine ì€ í•œì¤„ì”© ì½ìŒ, ëŒì•„ì˜¬ ìˆ˜ ì—†ìŒ, í•´ë‹¹ ì¤„ì´ ì—†ìœ¼ë©´ null
 			
 			String[] toks = line.trim().split("\\s+");
 			//line : "1 2 3" > toks : ["1", :2", "3"]

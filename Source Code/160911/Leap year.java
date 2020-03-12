@@ -1,6 +1,6 @@
-import java.util.Scanner;
+ï»¿import java.util.Scanner;
 
-public class À±³â {
+public class ìœ¤ë…„ {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -10,18 +10,18 @@ public class À±³â {
 		if(year%4 ==0) {
 			if(year%100 ==0){
 				if(year%400 ==0) {
-					System.out.println("À±³âÀÌ´Ù.");	
+					System.out.println("ìœ¤ë…„ì´ë‹¤.");	
 				}
 				else {
-					System.out.println("À±³âÀÌ ¾Æ´Ï´Ù.");
+					System.out.println("ìœ¤ë…„ì´ ì•„ë‹ˆë‹¤.");
 				}
 			}
 			else {
-			System.out.println("À±³âÀÌ´Ù.");
+			System.out.println("ìœ¤ë…„ì´ë‹¤.");
 			}
 		}
 		else {
-			System.out.println("À±³âÀÌ ¾Æ´Ï´Ù.");
+			System.out.println("ìœ¤ë…„ì´ ì•„ë‹ˆë‹¤.");
 			}
 		}
 	}

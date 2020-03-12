@@ -1,4 +1,4 @@
-
+﻿
 public class Break_f {
 
 	public static double d(int n) {

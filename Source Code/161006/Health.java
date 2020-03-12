@@ -1,4 +1,4 @@
-
+ï»¿
 public class Health {
 
 	public static double bmi(double height, double weight){
@@ -9,26 +9,26 @@ public class Health {
 	public static String bmicat(double bmi) {
 		String cat;
 		if(bmi < 18.5){
-			cat = "ÀúÃ¼Áß";
+			cat = "ì €ì²´ì¤‘";
 		}
 		else if(bmi < 23) {
-			cat = "Á¤»ó";
+			cat = "ì •ìƒ";
 		}
 		else if(bmi < 25) {
-			cat = "°úÃ¼Áß";
+			cat = "ê³¼ì²´ì¤‘";
 		}
 		else if(bmi < 30) {
-			cat = "°æµµ ºñ¸¸";
+			cat = "ê²½ë„ ë¹„ë§Œ";
 		}
 		else if(bmi < 35) {
-			cat = "Áßµîµµ ºñ¸¸";
+			cat = "ì¤‘ë“±ë„ ë¹„ë§Œ";
 		}
 		else {
-			cat = "°íµµ ºñ¸¸";
+			cat = "ê³ ë„ ë¹„ë§Œ";
 		}
 		return cat;
 	}
-	// ¿¬½À¹®Á¦ 3¹ø
+	// ì—°ìŠµë¬¸ì œ 3ë²ˆ
 	
 	public static void main(String[] args){
 		System.out.println(bmi(163, 48));

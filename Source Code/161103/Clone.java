@@ -1,4 +1,4 @@
-import java.util.Arrays;
+ï»¿import java.util.Arrays;
 
 public class Clone {
 
@@ -6,7 +6,7 @@ public class Clone {
 		
 		int[] xs = {2,3,4,5,6};
 		
-		// int[] ys = xs; ·Î ÇÏ¸é ¾ÈµÊ, º¹Á¦ ÈÄ ÀĞ´Â ¿ëµµ·Î¸¸ »ç¿ë
+		// int[] ys = xs; ë¡œ í•˜ë©´ ì•ˆë¨, ë³µì œ í›„ ì½ëŠ” ìš©ë„ë¡œë§Œ ì‚¬ìš©
 		
 		int n = xs.length;
 		int[] ys = new int[n];
@@ -14,7 +14,7 @@ public class Clone {
 			ys[i] = xs[i];
 		}
 		
-		//int[] ys = xs.clone(); ·Îµµ °¡´É
+		//int[] ys = xs.clone(); ë¡œë„ ê°€ëŠ¥
 	
 		System.out.println(java.util.Arrays.toString(xs));
 		System.out.println(xs);

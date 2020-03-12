@@ -1,10 +1,10 @@
-
+ï»¿
 public class QuadEqsolver {
 
 	public static void Solve(double a, double b, double c){
 		if(a == 0){
 			if(b == 0){
-				System.out.print("ÇØ°¡ ¾ø´Ù.");
+				System.out.print("í•´ê°€ ì—†ë‹¤.");
 			} else {
 				 System.out.println("");
 			}

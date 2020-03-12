@@ -1,19 +1,19 @@
-
+ï»¿
 public class Test1 {
 
 	public static void main(String[] args) {
 		int i = 10;
 		
-		if(i%2 ==0){ //2·Î ³ª´©¾î ¶³¾îÁü
-			if(i%5 == 0){ //5·Î ³ª´©¾î ¶³¾îÁü
-				System.out.println("2ÀÇ ¹è¼öÀÌ¸é¼­ 5ÀÇ ¹è¼ö");
+		if(i%2 ==0){ //2ë¡œ ë‚˜ëˆ„ì–´ ë–¨ì–´ì§
+			if(i%5 == 0){ //5ë¡œ ë‚˜ëˆ„ì–´ ë–¨ì–´ì§
+				System.out.println("2ì˜ ë°°ìˆ˜ì´ë©´ì„œ 5ì˜ ë°°ìˆ˜");
 			}
 			else{
-				System.out.println("2ÀÇ ¹è¼ö");
+				System.out.println("2ì˜ ë°°ìˆ˜");
 			}
 		}
 		else{
-			System.out.println("2ÀÇ ¹è¼ö°¡ ¾Æ´Ô");
+			System.out.println("2ì˜ ë°°ìˆ˜ê°€ ì•„ë‹˜");
 		}
 	}
 }

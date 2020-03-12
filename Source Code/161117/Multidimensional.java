@@ -1,4 +1,4 @@
-import java.util.Arrays;
+﻿import java.util.Arrays;
 
 public class Multidimensional {
 
@@ -40,7 +40,7 @@ public class Multidimensional {
 		}
 		System.out.println(total);
 		
-		System.out.println(Arrays.toString(m)); // �ּ�
+		System.out.println(Arrays.toString(m)); // 주소
 		System.out.println(m[3][2]);
 		
 		double[] arr = {1,2,3,4,5,6};

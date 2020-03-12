@@ -1,4 +1,4 @@
-
+﻿
 public class BMI {
 
 	public static double bmi(double h, double w){
